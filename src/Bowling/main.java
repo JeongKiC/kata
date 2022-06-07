@@ -19,7 +19,7 @@ public class main {
         String readScore;
         while( (readScore = bufferRead.readLine()) != null){
              inpScore = Integer.parseInt(readScore) ;
-
+             
             //System.out.println("입력된 값"+inpScore);
             if( inpScore >= 0 && inpScore <= 10){
 
